@@ -1,0 +1,20 @@
+disabled = false
+languageCode = "fr"
+languageName = "Français"
+weight = 1
+title = "NoNames"
+
+[params]
+displayName = "FR"
+isoCode = "fr"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "logo.png"
+
+
+[params.author]
+name = "NoNames"
+image = "logo.png"
+headline = "This is an headline"
+# bio = "This is a bio"
+links = [{ github = "https://github.com/0xNoNames" }]
