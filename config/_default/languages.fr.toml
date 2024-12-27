@@ -9,12 +9,11 @@ displayName = "FR"
 isoCode = "fr"
 rtl = false
 dateFormat = "2 January 2006"
-logo = "logo.png"
-
+logo = "logo_1.png"
 
 [params.author]
 name = "NoNames"
 image = "logo.png"
-headline = "This is an headline"
-# bio = "This is a bio"
+headline = "Blog personnel sur l'informatique et un peu de bidouillage"
+bio = "Spécialiste des outils en ligne de commande"
 links = [{ github = "https://github.com/0xNoNames" }]

@@ -12,7 +12,7 @@ highlightCurrentMenuArea = true
 smartTOC = true
 
 [header]
-layout = "fixed-fill-blur"
+layout = "fixed"
 
 [footer]
 showMenu = true
@@ -22,15 +22,17 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
+# layout = "hero"
+layout = "background"
+# layout = "profile"
 showRecent = "showRecent"
 showRecentItems = "3"
-showMoreLink = false
+showMoreLink = true
 showMoreLinkDest = "/articles/"
 cardView = false
 cardViewScreenWidth = false
-layoutBackgroundBlur = false
-homepageImage = ""
+layoutBackgroundBlur = true
+homepageImage = "logo_full.png"
 
 [article]
 showDate = true
@@ -40,7 +42,8 @@ showDateOnlyInArticle = false
 showDateUpdated = true
 showAuthor = true
 showAuthorBottom = true
-showHero = false
+showHero = true
+heroStyle = "background"
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = true
