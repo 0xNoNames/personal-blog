@@ -9,7 +9,8 @@ displayName = "FR"
 isoCode = "fr"
 rtl = false
 dateFormat = "2 January 2006"
-logo = "logo_1.png"
+# logo = "logo_1.png"
+description = "Blog personnel sur l'informatique et un peu de bidouillage"
 
 [params.author]
 name = "NoNames"
