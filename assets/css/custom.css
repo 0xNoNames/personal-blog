@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "HACKED";
-    src: url("/fonts/hacked.ttf");
+    src: url("/fonts/Hacked.ttf");
 }
 
 @font-face {
@@ -18,7 +18,7 @@
 /* -- -- -- -- -- UPDATING FONTS -- -- -- -- -- */
 
 html {
-  font-size: 11pt;
+    font-size: 12pt;
     font-family: Poppins;
 }
 
@@ -26,134 +26,6 @@ html {
 code,
 .highlight * {
     font-family: 'JetBrainsMono';
-}
-
-/* -- -- -- -- -- GLITCHED EFFECT -- -- -- -- -- */
-
-:root {
-    --glitch-offset: 0.1em;
-}
-
-.glitched {
-    font-family: "HACKED";
-    color: rgb(0, 255, 0);
-    mix-blend-mode: lighten;
-    position: relative;
-}
-
-.glitched::before,
-.glitched::after {
-    mix-blend-mode: lighten;
-    content: attr(data-content);
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-
-.glitched::before {
-    color: rgb(255, 0, 0);
-    animation: glitchBefore 4s linear infinite;
-    animation-delay: 0.2s;
-}
-
-.glitched::after {
-    color: rgb(0, 0, 255);
-    animation: glitchAfter 4s linear infinite;
-}
-
-
-@keyframes glitchBefore {
-    0% {
-        transform: rotate(-180deg) translate(var(--glitch-offset)) rotate(180deg);
-    }
-
-    29% {
-        transform: rotate(-104.4deg) translate(var(--glitch-offset)) rotate(104.4deg);
-    }
-
-    30% {
-        transform: rotate(-108deg) translate(var(--glitch-offset)) translateX(-5px) rotate(108deg);
-    }
-
-    31% {
-        transform: rotate(-111.6deg) translate(var(--glitch-offset)) rotate(111.6deg);
-    }
-
-    55% {
-        transform: rotate(18deg) translate(var(--glitch-offset)) rotate(-18deg);
-    }
-
-    56% {
-        transform: rotate(21.6deg) translate(var(--glitch-offset), 6px) translateX(-3px) rotate(-21.6deg);
-    }
-
-    57% {
-        transform: rotate(25.2deg) translate(var(--glitch-offset)) rotate(-25.2deg);
-    }
-
-    89% {
-        transform: rotate(140.4deg) translate(var(--glitch-offset)) rotate(-140.4deg);
-    }
-
-    90% {
-        transform: rotate(144deg) translate(var(--glitch-offset), 4px) translateX(9px) rotate(-144deg);
-    }
-
-    91% {
-        transform: rotate(147.6deg) translate(var(--glitch-offset)) rotate(-147.6deg);
-    }
-
-    100% {
-        transform: rotate(180deg) translate(var(--glitch-offset)) rotate(-180deg);
-    }
-}
-
-@keyframes glitchAfter {
-    0% {
-        transform: rotate(0deg) translate(var(--glitch-offset)) rotate(0deg);
-    }
-
-    29% {
-        transform: rotate(104.4deg) translate(var(--glitch-offset)) rotate(-104.4deg);
-    }
-
-    30% {
-        transform: rotate(108deg) translate(var(--glitch-offset)) translateX(-5px) rotate(-108deg);
-    }
-
-    31% {
-        transform: rotate(111.6deg) translate(var(--glitch-offset)) rotate(-111.6deg);
-    }
-
-    55% {
-        transform: rotate(198deg) translate(var(--glitch-offset)) rotate(-198deg);
-    }
-
-    56% {
-        transform: rotate(201.6deg) translate(var(--glitch-offset), 6px) translateX(-3px) rotate(-201.6deg);
-    }
-
-    57% {
-        transform: rotate(205.2deg) translate(var(--glitch-offset)) rotate(-205.2deg);
-    }
-
-    89% {
-        transform: rotate(320.4deg) translate(var(--glitch-offset)) rotate(-320.4deg);
-    }
-
-    90% {
-        transform: rotate(324deg) translate(var(--glitch-offset), 4px) translateX(9px) rotate(-324deg);
-    }
-
-    91% {
-        transform: rotate(327.6deg) translate(var(--glitch-offset)) rotate(-327.6deg);
-    }
-
-    100% {
-        transform: rotate(360deg) translate(var(--glitch-offset)) rotate(-360deg);
-    }
 }
 
 

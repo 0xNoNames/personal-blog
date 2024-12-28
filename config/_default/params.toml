@@ -3,11 +3,6 @@ defaultAppearance = "dark"
 autoSwitchAppearance = false
 enableSearch = true
 enableCodeCopy = true
-replyByEmail = false
-disableImageOptimization = false
-disableTextInHeader = false
-giteaDefaultServer = "https://git.fsfe.org"
-forgejoDefaultServer = "https://v8.next.forgejo.org"
 highlightCurrentMenuArea = true
 smartTOC = true
 defaultBackgroundImage = "logo_full.png"
@@ -17,91 +12,64 @@ defaultFeaturedImage = "logo_full.png"
 layout = "fixed"
 
 [footer]
-showMenu = true
+showAppearanceSwitcher = false
+showMenu = false
 showCopyright = false
 showThemeAttribution = false
-showAppearanceSwitcher = true
-showScrollToTop = true
 
 [homepage]
 layout = "background"
-showRecent = "showRecent"
+homepageImage = "logo_full.png"
+showRecent = true
 showRecentItems = 3
 showMoreLink = true
 showMoreLinkDest = "/articles/"
-cardView = false
 showCards = true
-cardViewScreenWidth = false
 layoutBackgroundBlur = true
-homepageImage = "logo_full.png"
 
 [article]
-showDate = true
-showViews = true
-showLikes = true
-showDateOnlyInArticle = false
 showDateUpdated = true
-showAuthor = true
-showAuthorBottom = true
+showAuthorBottom = false
 showHero = true
 heroStyle = "background"
-layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = false
 showBreadcrumbs = true
-showDraftLabel = true
-showEdit = false
-editAppendPath = true
 seriesOpened = false
-showHeadingAnchors = true
-showPagination = true
-invertPagination = false
-showReadingTime = true
 showTableOfContents = true
+showRelatedContent = true
+relatedContentLimit = 3
 showTaxonomies = true
-showAuthorsBadges = false
 showWordCount = true
-showZenMode = false
 showComments = true
+showZenMode = false
+showViews = true
+showLikes = true
 
 [list]
-showHero = true
+showHero = false
 heroStyle = "background"
-layoutBackgroundBlur = true
+layoutBackgroundBlur = false
 layoutBackgroundHeaderSpace = false
 showBreadcrumbs = true
 showSummary = true
-showViews = false
-showLikes = false
 showTableOfContents = false
 showCards = true
-orderByWeight = false
 groupByYear = true
-cardView = false
-cardViewScreenWidth = false
-constrainItemsWidth = false
 
 [sitemap]
 excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
-showTermCount = true
 showHero = false
-showBreadcrumbs = false
-showViews = false
-showLikes = false
-showTableOfContents = false
-cardView = false
+heroStyle = "background"
+showBreadcrumbs = true
+cardView = true
 
 [term]
 showHero = false
-showBreadcrumbs = false
-showViews = false
-showLikes = false
-showTableOfContents = true
-groupByYear = false
-cardView = false
-cardViewScreenWidth = false
-heroStyle = "basic"
+heroStyle = "background"
+showBreadcrumbs = true
+groupByYear = true
 
 [firebase]
 apiKey = "AIzaSyDoym1aKHOFurPD3FHik5yyczoqHZTfBBw"
