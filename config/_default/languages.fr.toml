@@ -16,5 +16,5 @@ description = "Blog personnel sur l'informatique et un peu de bidouillage"
 name = "NoNames"
 image = "logo.png"
 headline = "Blog personnel sur l'informatique et un peu de bidouillage"
-bio = "Spécialiste des outils en ligne de commande"
+bio = "Expert en CLI"
 links = [{ github = "https://github.com/0xNoNames" }]
