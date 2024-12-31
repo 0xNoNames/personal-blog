@@ -13,7 +13,7 @@ description = "Blog personnel sur l'informatique et un peu de bidouillage"
 
 [params.author]
 name = "NoNames"
-image = "logo.png"
+image = "logo.gif"
 headline = "Blog personnel sur l'informatique et un peu de bidouillage"
 bio = "Expert en CLI"
 links = [{ github = "https://github.com/0xNoNames" }]
