@@ -6,8 +6,6 @@ theme = "blowfish"
 baseURL = "https://nonames.dev/"
 defaultContentLanguage = "fr"
 
-# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
-
 enableRobotsTXT = true
 summaryLength = 3
 
@@ -25,7 +23,6 @@ anchor = 'Center'
 [taxonomies]
 tag = "tags"
 category = "categories"
-author = "authors"
 series = "series"
 
 [sitemap]
@@ -51,10 +48,6 @@ weight = 100
 [[related.indices]]
 name = "series"
 weight = 50
-
-[[related.indices]]
-name = "authors"
-weight = 20
 
 [[related.indices]]
 name = "date"

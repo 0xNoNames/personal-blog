@@ -1,11 +1,17 @@
 [[main]]
-name = "Blog"
+name = "Articles"
 pre = "code"
 pageRef = "articles"
 weight = 10
 
 [[main]]
+name = "Catégories"
+pre = "bars"
+pageRef = "categories"
+weight = 20
+
+[[main]]
 name = "Tags"
 pre = "tag"
 pageRef = "tags"
-weight = 20
+weight = 30
