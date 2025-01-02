@@ -5,7 +5,7 @@ enableSearch = true
 enableCodeCopy = true
 highlightCurrentMenuArea = true
 smartTOC = true
-smartTOCHideUnfocusedChildren = true
+smartTOCHideUnfocusedChildren = false
 defaultBackgroundImage = "logo_full.png"
 defaultFeaturedImage = "logo_full.png"
 
@@ -32,7 +32,7 @@ layoutBackgroundBlur = true
 showDateUpdated = true
 showAuthorBottom = false
 showHero = true
-heroStyle = "background"
+heroStyle = "basic"
 layoutBackgroundHeaderSpace = false
 showBreadcrumbs = true
 seriesOpened = false
