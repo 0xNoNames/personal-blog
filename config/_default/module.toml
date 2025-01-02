@@ -1,3 +1,7 @@
 [hugoVersion]
 extended = false
 min = "0.87.0"
+
+[security]
+[security.gotemplates]
+allowActionJSTmpl = true
