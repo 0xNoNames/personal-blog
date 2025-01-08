@@ -1,10 +1,2 @@
-{{ $class := cond (isset .Attributes "usetheme") "chroma" "chroma-custom" }}
-{{- if transform.CanHighlight .Type }}
-<div class="highlight"><pre tabindex="0" class="{{ $class }}"><code class="language-{{ .Type }}" data-lang="{{ .Type }}">
-{{- with transform.HighlightCodeBlock . -}}
-    {{ .Inner }}
-{{- end -}}
-</code></pre></div>
-{{- else -}}
-<pre tabindex="0"><code class="language-{{ .Type }}" data-lang="{{ .Type }}">{{ .Inner }}</code></pre>
-{{- end -}}
+{{ $result := transform.HighlightCodeBlock . }}
+{{ $result.Wrapped | replaceRE "class=\"chroma\"" "class=\"chroma-custom\"" | safeHTML }}
