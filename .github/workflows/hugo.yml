@@ -29,7 +29,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.155.3
+      HUGO_VERSION: 0.139.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -48,7 +48,7 @@ jobs:
       # Change directory and pull the latest changes
       - name: Update articles
         run: |
-          git submodule update --remote
+          git submodule update --remote content/articles
           rm -rf content/articles/.git*
           
       - name: Setup Pages
